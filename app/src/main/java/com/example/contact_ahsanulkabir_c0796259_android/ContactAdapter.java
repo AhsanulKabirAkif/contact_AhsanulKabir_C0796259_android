@@ -152,16 +152,19 @@ public class ContactAdapter extends ArrayAdapter {
                 alertDialog.show();
             }
         });
-
+/*
         lv = v.findViewById(R.id.lv_contact);
         lv.setOnItemClickListener((parent1, view, position1, id) -> {
             AlertDialog.Builder builder = new AlertDialog.Builder(context);
             LayoutInflater layoutInflater = LayoutInflater.from(context);
+            view = convertView;
             view = layoutInflater.inflate(R.layout.mail_sms_call_layout,null);
             builder.setView(view);
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
         });
+
+ */
 
 
 
